@@ -1,0 +1,4 @@
+node_modules
+.idea
+gulpfile.js
+css/main.scss
