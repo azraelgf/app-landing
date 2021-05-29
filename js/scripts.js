@@ -82,5 +82,14 @@ new Swiper('.slider-quotes-container', {
     pagination: {
         el: '.section-quotes .dots',
         clickable: true
-    }
+    },breakpoints: {
+        "700": {
+            slidesPerView: 2,
+            spaceBetween: 10,
+        },
+        "320": {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+    },
 });
